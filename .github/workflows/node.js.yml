@@ -42,4 +42,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: carlangasds/web:$(git rev-parse --short "$GITHUB_SHA")
+          tags: carlangasds/web:$GITHUB_SHA
